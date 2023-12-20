@@ -23,6 +23,27 @@ outputs:
     comment: "interactive BOM html"
     type: ibom
 
+  - name: 'bom_generic'
+    comment: "Generic BoM"
+    type: bom
+    options:
+      output: '%f_%i.%x'
+      ref_separator: ','
+      group_fields: ['Value', 'Footprint', 'MPN']
+      columns:
+        - field: Value
+          name: Comment
+        - field: References
+          name: Designator
+        - field: Footprint
+          name: Footprint
+        - field: 'MPN'
+          name: 'Manufacturer Part Number'
+      csv:
+        hide_pcb_info: true
+        hide_stats_info: true
+        quote_all: true
+
   - name: 'step'
     comment: "PCB STEP file"
     type: step

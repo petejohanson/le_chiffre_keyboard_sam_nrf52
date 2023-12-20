@@ -2750,7 +2750,7 @@
   )
 
   (symbol (lib_id "Jumper:Jumper_2_Open") (at 46.482 44.704 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6889302a-9e66-48e4-839b-38dd64b36cb5)
     (property "Reference" "JP2" (at 46.482 38.1 0)
       (effects (font (size 1.27 1.27)))
@@ -3636,7 +3636,7 @@
   )
 
   (symbol (lib_id "PCM_marbastlib-various:TC2030_SWD") (at 128.016 104.648 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fec397d7-9413-4943-822b-d9ce9e35d336)
     (property "Reference" "J2" (at 135.382 102.108 0)
       (effects (font (size 1.27 1.27)) (justify left))

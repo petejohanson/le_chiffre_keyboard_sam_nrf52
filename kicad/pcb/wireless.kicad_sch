@@ -657,7 +657,7 @@
   )
 
   (symbol (lib_id "PCM_marbastlib-various:TC2030_SWD") (at 214.63 56.642 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 657f0d04-f43e-414e-ac0f-4a3608191777)
     (property "Reference" "J3" (at 222.25 54.102 0)
       (effects (font (size 1.27 1.27)) (justify left))
