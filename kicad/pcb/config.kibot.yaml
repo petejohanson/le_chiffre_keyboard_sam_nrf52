@@ -29,7 +29,7 @@ outputs:
     options:
       output: '%f_%i.%x'
       ref_separator: ','
-      group_fields: ['Value', 'Footprint', 'MPN']
+      group_fields: ['Value', 'Footprint', 'MPN', 'LCSC']
       columns:
         - field: Value
           name: Comment
@@ -39,6 +39,8 @@ outputs:
           name: Footprint
         - field: 'MPN'
           name: 'Manufacturer Part Number'
+        - field: LCSC
+          name: LCSC
       csv:
         hide_pcb_info: true
         hide_stats_info: true
